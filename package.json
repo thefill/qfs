@@ -1,0 +1,38 @@
+{
+  "name": "qfs",
+  "version": "0.0.1",
+  "description": "qfs node module provides wrappers with exposed q promise capabilities for fs asynchronous methods",
+  "main": "qfs.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "q": "^0.9.7"
+  },
+  "engines": {
+      "node": ">= 0.6"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "scripts": {
+    "test": "jasmine-node test/spec"
+  },
+  "keywords": [
+    "q",
+    "promise",
+    "promises",
+    "q-fs",
+    "fs",
+    "filesystem"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xxx.git"
+  },
+  "author": {
+    "name": "Filip Dabrowski",
+    "email": "fifofil@gmail.com"
+  },
+  "license": "MIT"
+}
