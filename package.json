@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/xxx.git"
+    "url": "git@github.com:thefill/qfs.git"
   },
   "author": {
     "name": "Filip Dabrowski",

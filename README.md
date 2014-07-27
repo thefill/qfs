@@ -1,4 +1,4 @@
-QFS[ ![Codeship Status for thefill/qfs](https://www.codeship.io/projects/eb175ba0-f748-0131-b793-5a12e6a78485/status)](https://www.codeship.io/projects/28572)
+QFS
 ========
 qfs node module provides wrappers with exposed q promise capabilities for fs asynchronous methods.
 
@@ -14,7 +14,7 @@ A promise object provided by the q promise library.
 
 q-wrapper for fs.rename
 
-### Params: 
+### Params:
 
 * **string** *oldPath* old path
 * **string** *newPath* new path
@@ -27,7 +27,7 @@ q-wrapper for fs.rename
 
 q-wrapper for fs.ftruncate
 
-### Params: 
+### Params:
 
 * **number** *fd* file descriptor
 * **integer** *len* amount of data to be truncated
@@ -40,7 +40,7 @@ q-wrapper for fs.ftruncate
 
 q-wrapper for fs.truncate
 
-### Params: 
+### Params:
 
 * **number** *fd* file descriptor
 * **integer** *len* amount of data to be truncated
@@ -53,7 +53,7 @@ q-wrapper for fs.truncate
 
 q-wrapper for fs.chown
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 * **integer** *uid* owner ID
@@ -67,7 +67,7 @@ q-wrapper for fs.chown
 
 q-wrapper for fs.fchown
 
-### Params: 
+### Params:
 
 * **number** *fd* file descriptor
 * **integer** *uid* owner ID
@@ -81,7 +81,7 @@ q-wrapper for fs.fchown
 
 q-wrapper for fs.lchown
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 * **integer** *uid* owner ID
@@ -95,7 +95,7 @@ q-wrapper for fs.lchown
 
 q-wrapper for fs.chmod
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 * **integer** *mode* value of mode in octal or integer format
@@ -108,7 +108,7 @@ q-wrapper for fs.chmod
 
 q-wrapper for fs.fchmod
 
-### Params: 
+### Params:
 
 * **number** *fd* file descriptor
 * **integer** *mode* value of mode in octal or integer format
@@ -121,7 +121,7 @@ q-wrapper for fs.fchmod
 
 q-wrapper for fs.lchmod
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 * **integer** *mode* value of mode in octal or integer format
@@ -134,7 +134,7 @@ q-wrapper for fs.lchmod
 
 q-wrapper for fs.stat
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 
@@ -146,7 +146,7 @@ q-wrapper for fs.stat
 
 q-wrapper for fs.lstat
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 
@@ -158,7 +158,7 @@ q-wrapper for fs.lstat
 
 q-wrapper for fs.fstat
 
-### Params: 
+### Params:
 
 * **number** *fd* file descriptor
 
@@ -170,7 +170,7 @@ q-wrapper for fs.fstat
 
 q-wrapper for fs.link
 
-### Params: 
+### Params:
 
 * **string** *srcpath* path to source file
 * **string** *dstpath* path to destination
@@ -183,7 +183,7 @@ q-wrapper for fs.link
 
 q-wrapper for fs.symlink
 
-### Params: 
+### Params:
 
 * **string** *srcpath* path to source file
 * **string** *dstpath* path to destination file
@@ -197,7 +197,7 @@ q-wrapper for fs.symlink
 
 q-wrapper for fs.readlink
 
-### Params: 
+### Params:
 
 * **string** *path* path to link file
 
@@ -209,7 +209,7 @@ q-wrapper for fs.readlink
 
 q-wrapper for fs.realpath
 
-### Params: 
+### Params:
 
 * **string** *path* path to some location
 * **object** *cache* object literal of mapped paths that can be used to force a specific path resolution or avoid additional fs.stat calls for known real paths
@@ -222,7 +222,7 @@ q-wrapper for fs.realpath
 
 q-wrapper for fs.unlink
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 
@@ -234,7 +234,7 @@ q-wrapper for fs.unlink
 
 q-wrapper for fs.rmdir
 
-### Params: 
+### Params:
 
 * **string** *path* path to directory
 
@@ -246,7 +246,7 @@ q-wrapper for fs.rmdir
 
 q-wrapper for fs.mkdir
 
-### Params: 
+### Params:
 
 * **string** *path* path to directory
 * **integer** *mode* value of mode in octal or integer format, defaults to 0777
@@ -259,7 +259,7 @@ q-wrapper for fs.mkdir
 
 q-wrapper for fs.readdir
 
-### Params: 
+### Params:
 
 * **string** *path* path to directory
 * **object** *cache* object literal of mapped paths that can be used to force a specific path resolution or avoid additional fs.stat calls for known real paths
@@ -272,7 +272,7 @@ q-wrapper for fs.readdir
 
 q-wrapper for fs.close
 
-### Params: 
+### Params:
 
 * **number** *fd* file descriptor
 
@@ -284,7 +284,7 @@ q-wrapper for fs.close
 
 q-wrapper for fs.open
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 * **string** *flags* specify mode in which we open file, acceptable values:                        'r' - Open file for reading. An exception occurs if the file does not exist.
@@ -311,7 +311,7 @@ q-wrapper for fs.open
 
 q-wrapper for fs.utimes
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 * **integer** *atime* access time
@@ -325,7 +325,7 @@ q-wrapper for fs.utimes
 
 q-wrapper for fs.futimes
 
-### Params: 
+### Params:
 
 * **number** *fd* file descriptor
 * **integer** *atime* access time
@@ -339,7 +339,7 @@ q-wrapper for fs.futimes
 
 q-wrapper for fs.fsync
 
-### Params: 
+### Params:
 
 * **number** *fd* file descriptor
 
@@ -352,7 +352,7 @@ q-wrapper for fs.fsync
 q-wrapper for fs.write</br>
 Original fs.write method return 3 arguments to callback: error, written & buffer. </br> Author of this wrapper wants to stick to q mantra as close as possible so every method provide to resolver 1 argument. Resolving method combines 2 arguments into one: {written: result, buffer: buffer}
 
-### Params: 
+### Params:
 
 * **number** *fd* file descriptor
 * **string|buffer** *buffer* buffer of data that have to be written to the file
@@ -369,7 +369,7 @@ Original fs.write method return 3 arguments to callback: error, written & buffer
 q-wrapper for fs.read</br>
 Original fs.read method return 3 arguments to callback: error, bytesRead & buffer. </br> Author of this wrapper wants to stick to q mantra as close as possible so every method provide to resolver 1 argument. Resolving method combines 2 arguments into one: {bytesRead: bytesRead, buffer: buffer}
 
-### Params: 
+### Params:
 
 * **number** *fd* file descriptor
 * **string|buffer** *buffer* is the buffer that the data will be written to
@@ -385,7 +385,7 @@ Original fs.read method return 3 arguments to callback: error, bytesRead & buffe
 
 q-wrapper for fs.readFile
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 * **object** *options* can contain one of following options: encoding (string, defaults to null), flag (string, defaults to 'r')
@@ -398,7 +398,7 @@ q-wrapper for fs.readFile
 
 q-wrapper for fs.writeFile
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 * **string|buffer** *data* data to be written to file
@@ -412,7 +412,7 @@ q-wrapper for fs.writeFile
 
 q-wrapper for fs.appendFile
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 * **string|buffer** *data* data to be written to file
@@ -427,7 +427,7 @@ q-wrapper for fs.appendFile
 q-wrapper for fs.watchFile</br>
 Original fs.watchFile method accept listener as one of arguments. This listener is used as a callback in case of any change made to the watched file.</br> By utilizing q notification capabilities we are able to mimic above listener behavior without loosing beauty of q premises. lease use .progress(function(result_object){...}); notation to receive events regarding watched file.</br> Method return 2 arguments to listener: current_stat & previous_stat. Author of this wrapper wants to stick to q manta as close as possible so this method provide to progress listener 1 argument. Resolver method combines 2 arguments into one: {current: current_stat, previous: previous_stat}
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 * **object** *options* can contain one of following options: persistent (boolean, defaults to true), interval (integer, defaults to 5007 miliseconds)
@@ -441,7 +441,7 @@ Original fs.watchFile method accept listener as one of arguments. This listener 
 q-wrapper for fs.unwatchFile</br>
 In its pure form this method really don't require wrapper, but because we used q progress as a listenerit will be difficult for user to provide proper function to detach watcher from file. This method will remove all listeners.
 
-### Params: 
+### Params:
 
 * **string** *path* path to watched file
 
@@ -463,7 +463,7 @@ Original fs.watch method accept listener as one of arguments. This listener is u
 Resolver method return 1 argument to progress listener: filename. This progress event / call == 'change' of file & is not specified (can be related to any type of action against watched file).</br>
 Author of this wrapper wants to stick to q manta as close as possible so this method provide error event only once. After that event user is expected to close handler on its own.
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 * **object** *options* can contain one of following options: persistent (boolean, defaults to true)
@@ -476,7 +476,7 @@ Author of this wrapper wants to stick to q manta as close as possible so this me
 
 q-wrapper for fs.exists
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 
@@ -489,7 +489,7 @@ q-wrapper for fs.exists
 q-wrapper for fs.createReadStream</br>
 In its pure form this method really don't require wrapper, created for convinience of usage
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 * **object** *options* can contain one of following options: flags (string, defaults to 'r'), encoding (string, defaults to null), fd (file, defaults to null), mode (integer or octal, defaults to 0666), autoClose (boolean, defaults to true)
@@ -503,7 +503,7 @@ In its pure form this method really don't require wrapper, created for convinien
 q-wrapper for fs.createReadStream</br>
 In its pure form this method really don't require wrapper, created for convinience of usage
 
-### Params: 
+### Params:
 
 * **string** *path* path to file
 * **object** *options* can contain one of following options: flags (string, defaults to 'w'), encoding (string, defaults to null), mode (integer or octal, defaults to 0666)
@@ -513,4 +513,3 @@ In its pure form this method really don't require wrapper, created for convinien
 * **WriteStream** Returns read stream object
 
 <!-- End qfs.js -->
-
