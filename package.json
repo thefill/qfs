@@ -1,5 +1,5 @@
 {
-  "name": "qfs",
+  "name": "qfs-node",
   "version": "0.0.1",
   "description": "qfs node module provides wrappers with exposed q promise capabilities for fs asynchronous methods",
   "main": "qfs.js",
