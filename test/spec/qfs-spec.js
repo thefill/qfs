@@ -1,5 +1,6 @@
 /**
  * Note: not every method tested. Have to finish.
+ * TODO: use mock-fs or similar package to mimic fs: https://www.npmjs.org/package/mock-fs
  */
 
 var qfs = require('../../qfs');

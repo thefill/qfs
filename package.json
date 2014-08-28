@@ -10,10 +10,11 @@
     "q": "^0.9.7"
   },
   "engines": {
-      "node": ">= 0.6"
+    "node": ">= 0.6"
   },
   "devDependencies": {
-    "jasmine-node": "^1.14.5"
+    "jasmine-node": "^1.14.5",
+    "q": "^0.9.7"
   },
   "scripts": {
     "test": "jasmine-node test/spec"
@@ -24,15 +25,16 @@
     "promises",
     "q-fs",
     "fs",
-    "filesystem"
+    "filesystem",
+    "qfs-node"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:thefill/qfs.git"
+    "url": "https://thefill@github.com/thefill/qfs.git"
   },
-  "author": {
-    "name": "Filip Dabrowski",
-    "email": "fifofil@gmail.com"
-  },
-  "license": "MIT"
+  "author": "Filip Dabrowski <fifofil@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thefill/qfs/issues"
+  }
 }
