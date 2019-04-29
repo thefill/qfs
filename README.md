@@ -1,5 +1,8 @@
 QFS
 ========
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/thefill/qfs.svg)](https://greenkeeper.io/)
+
 qfs node module provides wrappers with exposed q promise capabilities for fs asynchronous methods.
 
 For full description of core node fs module please refer to official node fs documentation: http://nodejs.org/api/fs.html#fs_file_system
