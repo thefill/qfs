@@ -7,14 +7,14 @@
     "test": "test"
   },
   "dependencies": {
-    "q": "^0.9.7"
+    "q": "^1.5.1"
   },
   "engines": {
     "node": ">= 0.6"
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5",
-    "q": "^0.9.7"
+    "q": "^1.5.1"
   },
   "scripts": {
     "test": "jasmine-node test/spec"
